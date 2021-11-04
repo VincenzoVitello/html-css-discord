@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: whitney ;
+
+}
+.logo img{
+    background-color: #3161e0;
+    float: left;
+}
+nav{
+    background-color: #3161e0;
+    float: left;
+    width: 90%;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+#accedi{
+    float: right;
+    color: #3161e0;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+ /* .main-nav{ 
+    width: calc(100% - 100px);
+}*/
