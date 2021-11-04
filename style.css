@@ -5,15 +5,23 @@
 }
 body{
     font-size: 20px;
-    font-family: whitney ;
+    font-family: 'Whitney', sans-serif;
 
 }
-.logo img{
+.container-header{
     background-color: #3161e0;
-    float: left;
+
 }
-nav{
-    background-color: #3161e0;
+.container-header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo img{
+    float: left;
+    width: 150px;
+}
+.main-nav{
     float: left;
     width: 90%;
     text-align: center;
@@ -31,11 +39,11 @@ a:hover{
 }
 #accedi{
     float: right;
-    color: #3161e0;
-    background-color: white;
     border-radius: 50%;
     display: inline-block;
+    width: 150px;
 }
+
 
  /* .main-nav{ 
     width: calc(100% - 100px);
