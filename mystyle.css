@@ -68,11 +68,10 @@ a:hover{
 }
 #jumbo{
     background-image: url(img/jumbo.png);
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     color: #FFF;
+    padding-bottom: 65px;
 }
 #jumbo .jumbo-container{
     width: 50%;
@@ -107,8 +106,29 @@ a:hover{
     color: #fcfcfc;
 }
 .browser:hover{
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
  }
 i{
     padding: 0 5px;
+}
+.row{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.server-image{
+    display: inline-block;
+}
+.server-image img{
+    width: 500px;
+    margin-left: 200px;
+}
+.server-title{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin-top: 35px;
+}
+.server-text{
+    font-size: 13px;
+    margin-top: 10px;
 }
