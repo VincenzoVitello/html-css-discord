@@ -125,10 +125,28 @@ i{
 .server-title{
     display: inline-block;
     width: 150px;
-    vertical-align: top;
     margin-top: 35px;
 }
 .server-text{
     font-size: 13px;
     margin-top: 10px;
+}
+.three{
+    vertical-align: top;
+}
+.server-title-left{
+    display: inline-block;
+    width: 150px;
+
+}
+.server-image-left img{
+    width: 500px;
+    margin-left: 80px;
+    display: inline-block;
+}
+.server-image-left{
+    display: inline-block;
+}
+.row.two{
+    margin-left: 250px;
 }
