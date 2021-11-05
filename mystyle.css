@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.flexbox{
     font-size: 16px;
     font-family: 'Whitney', sans-serif;
-
 }
 header{
     background-color: #3161e0;
@@ -56,15 +55,19 @@ a:hover{
 }
 #accedi{
     float: right;
+    margin-top: 7px;    
+}
+#accedi a{
     background-color: white;
     border-radius: 40px;
     width: 120px;
     text-align: center;
-    margin-top: 7px;   
-}
-#accedi a{
     color: black;
     text-decoration: none;
+    padding: 5px 15px;
+}
+#accedi a:hover{
+    color:#8ea1e1
 }
 #jumbo{
     background-image: url(img/jumbo.png);
@@ -95,18 +98,18 @@ a:hover{
 }
 
 .download{
-    background-color: white;
+    background-color:rgba(255,255,255, .9);
     color: #24282b;
 }
 .download:hover{
-    background-color: rgba(255,255,255, .8);
+    background-color: white;
 }
 .browser{
-    background-color: #23272a;
+    background-color: rgba(0, 0, 0, .7);
     color: #fcfcfc;
 }
 .browser:hover{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: #23272a;
  }
 i{
     padding: 0 5px;
@@ -167,11 +170,34 @@ i{
     line-height: 50px;
 }
 .download.footer{
-    background-color: #8ea1e1;
+    background-color: rgba(142,161,225, .8);
     color: white;
+    margin-top: 25px;
 }
 .download.footer:hover{
-    background-color: rgba(142,161,225, .8);
+    background-color:#8ea1e1;
     cursor: pointer;
 }
-
+.ita img{
+    height: 20px;
+    margin-bottom: 20px;
+}
+.ita span{
+    vertical-align: top;
+}
+.footer-titles{
+    color: rgb(142,161,225);
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #23272a;
+    color: white;
+}
+.footer-left{
+    padding: 40px 100px;
+    width: 400px;
+}
+.fa-brands{
+    margin: 0 5px 0 0;
+    text-align: left;
+}
